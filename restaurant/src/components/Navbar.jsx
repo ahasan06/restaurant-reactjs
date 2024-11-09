@@ -45,7 +45,7 @@ function Navbar() {
             <ul className="flex flex-col items-center gap-4">
               {navMenue.map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-gray-900 font-semibold hover:text-red-950 font-menu text-[18px]" onClick={toggleMenu}>
+                  <a href="#" className="text-gray-900 font-semibold hover:text-red-950 font-menu text-[16px]" onClick={toggleMenu}>
                     {item}
                   </a>
                 </li>

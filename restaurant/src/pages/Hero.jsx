@@ -7,7 +7,7 @@ import vector from '../images/Vector.png'
 
 function Hero() {
   return (
-    <section className=" max-w-[1373px] min-h-screen mx-auto flex flex-col  lg:relative  lg:flex-row  gap-14 text-white px-6 py-20">
+    <section className=" max-w-[1373px] min-h-screen  mx-auto flex flex-col  lg:relative  lg:flex-row  gap-14 text-white px-6 py-20">
       <article className='flex flex-col lg:justify-center z-20 gap-10 '>
         <h1 className="font-heading text-5xl md:text-8xl lg:text-9xl lg:pr-10 lg:py-5 lg:bg-gradient-to-r from-transparent to-red-800 ">
           Taste the Authentic <br className='hidden lg:block'/> Saudi Cuisine

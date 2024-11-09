@@ -1,14 +1,18 @@
 import React from 'react'
 import Hero from './pages/Hero'
 import Navbar from './components/Navbar'
+import About from './pages/About'
 
 function App() {
   return (
-    <div>
-     <div className='min-h-screen hero-background'> 
-      <Navbar/>
+    <div >
+    <section className='min-h-screen hero-background'> 
+      <Navbar />
       <Hero/>
-      </div>
+    </section>
+    <section className='min-h-screen'>
+      <About/>
+    </section>
     </div>
   )
 }
