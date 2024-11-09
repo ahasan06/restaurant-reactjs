@@ -1,0 +1,21 @@
+
+/* Menubar Font Quicksand*/
+/* Heading Font Bebas Neue*/
+/* General Font Roboto Neue*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-background {
+  background-image: linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%), url('./images/heroBg.png');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.mobile-nav-background {
+  background-image: linear-gradient(123.4deg, #cfb22f 40.8%, #aa8f15 76.4%, #836e0f 120.69%), url('./images/heroBg.png');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
