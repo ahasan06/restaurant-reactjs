@@ -12,7 +12,7 @@ function Navbar() {
       };
     
     return (
-    <header className="max-w-[1373px] h-[108px] sticky z-50 top-0 container mx-auto flex justify-between gap-16 items-center px-6  text-white">
+    <header className="max-w-[1373px] h-[77px] lg:h-[108px] sticky z-50 top-0 container mx-auto flex justify-between gap-16 items-center px-6 lg:px-0 text-white">
         <div className="logo font-bold text-xl">
             <img src={logo} alt="logo"className="w-full" />
         </div>
