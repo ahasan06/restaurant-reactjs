@@ -6,11 +6,11 @@ import About from './pages/About'
 function App() {
   return (
     <div >
-    <section className='min-h-screen hero-background'> 
-      <Navbar />
+    <section className='min-h-screen  hero-background '> 
+      <Navbar/>
       <Hero/>
     </section>
-    <section className='min-h-screen'>
+    <section className='min-h-screen bg-red-200 overflow-hidden'>
       <About/>
     </section>
     </div>

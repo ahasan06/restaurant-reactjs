@@ -12,17 +12,17 @@ function Navbar() {
       };
     
     return (
-    <header className="max-w-[1373px] h-[108px] sticky z-50 top-0 container mx-auto flex justify-between gap-16 items-center px-6   text-white">
+    <header className="max-w-[1373px] h-[108px] sticky z-50 top-0 container mx-auto flex justify-between gap-16 items-center px-6  text-white">
         <div className="logo font-bold text-xl">
-            <img src={logo} alt="" />
+            <img src={logo} alt="logo"className="w-full" />
         </div>
       {/* Desktop Menu */}
-        <div className=" hidden md:flex items-center justify-between  w-full gap-10">
+        <div className=" hidden lg:flex items-center justify-between  w-full gap-10">
             <nav>
                 <ul className="flex md:gap-10 lg:gap-14">
                     {navMenue.map((item) => (
                         <li>
-                            <a href="#" className="hover:text-yellow-400 font-menu text-[16px]">{item}</a>
+                            <a href="#" className="hover:text-yellow-400 font-menu text-[16px] ">{item}</a>
                         </li>
                     ))}
                 </ul>
@@ -31,7 +31,7 @@ function Navbar() {
         </div>
 
       {/* Hamburger Icon for Mobile */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button onClick={toggleMenu} className="text-2xl">
           {isOpen ? <FaTimes /> : <FaBars/>}
         </button>
@@ -40,7 +40,7 @@ function Navbar() {
       {/* Mobile Menu */}
 
       {isOpen && (
-         <div className="md:hidden  absolute  top-20 left-1/2 transform -translate-x-1/2 w-3/4 mobile-nav-background py-4 px-6 rounded-lg shadow-lg">
+         <div className="lg:hidden  absolute  top-20 left-1/2 transform -translate-x-1/2 w-3/4 mobile-nav-background py-4 px-6 rounded-lg shadow-lg">
           <nav>
             <ul className="flex flex-col items-center gap-4">
               {navMenue.map((item) => (
