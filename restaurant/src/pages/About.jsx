@@ -6,7 +6,7 @@ import fastDelivery from '../assets/icons/fast_delivery.png'
 import AboutCard from '../components/ui/AboutCard';
 import dining from '../assets/icons/absolute_dining.png'
 import pickup_delivery from '../assets/icons/pickup_delivery.png'
-import hero_aurnaments from '../images/about_icon.png'
+
 import ExperimentCard from '../components/ui/ExperimentCard';
 import marketplcae from '../images/MarketPlace.png'
 
@@ -33,11 +33,11 @@ function About() {
 
 
     return (
-        <section className='max-w-[1373px] min-h-screen justify-center mx-auto flex flex-col px-6 '>
+        <section className=' max-w-[1373px] min-h-screen justify-center mx-auto flex lg:gap-10 flex-col px-6 '>
 
-               <img src={hero_aurnaments}  className=' hidden md:block absolute right-0 translate-y-1/2'/>
+            
 
-             <div className='about_top  mt-6 flex flex-col md:mt-0 md:flex-row md:gap-16'>
+             <div className='about_top  mt-6 flex flex-col lg:mt-0 lg:flex-row md:gap-16'>
 
                 <aside className='md:flex-1 relative'>
                     <img src={about_image} alt="about image" className='w-full' />
@@ -63,7 +63,7 @@ function About() {
 
                     <div className="mt-6">
                         <h2 className="text-4xl md:text-6xl font-heading">{tabContent[activeTab].title}</h2>
-                        <p className="mt-4 text-gray-600">{tabContent[activeTab].description}</p>
+                        <p className="mt-4 text-[#333333] text-[14px] leading-[26px]">{tabContent[activeTab].description}</p>
                    </div>
 
                    <div className='mt-6 about_contact flex items-center gap-2 md:gap-8'>
@@ -79,7 +79,7 @@ function About() {
 
             </div>
 
-            <article className='about_bottom my-6 lg:mt-16 flex flex-col gap-8 md:flex-row  md:gap-28'>
+            <article className='about_bottom my-6  grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 
                 <AboutCard 
                 icon={fastDelivery}
