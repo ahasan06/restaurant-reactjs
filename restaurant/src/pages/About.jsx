@@ -62,7 +62,7 @@ function About() {
                     </div>
 
                     <div className="mt-6">
-                        <h2 className="text-4xl md:text-6xl font-heading">{tabContent[activeTab].title}</h2>
+                        <h2 className="text-4xl xl:text-6xl font-heading">{tabContent[activeTab].title}</h2>
                         <p className="mt-4 text-[#333333] text-[14px] leading-[26px]">{tabContent[activeTab].description}</p>
                    </div>
 

@@ -100,7 +100,7 @@ function BookTable() {
 
 
     return (
-        <div className=" max-w-[1373px] min-h-[722px] lg:min-h-[788px] mx-auto px-6 flex flex-col gap-10 justify-center">
+        <div className=" max-w-[1373px] min-h-[722px] xl:min-h-[788px] mx-auto px-6 flex flex-col gap-10 justify-center">
             <div className="book_heading_content flex justify-between items-center ">
                 <div className="book_title flex flex-col gap-[10px] max-w-md">
                     <h3 className="relative text-red-600 text-[14px] md:text-lg font-bold before:content-[''] before:inline-block before:bg-red-600 before:w-[8px] before:h-[8px] before:mr-2  before:align-middle">

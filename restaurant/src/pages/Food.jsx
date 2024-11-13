@@ -42,7 +42,7 @@ function Food() {
   return (
 
 
-    <div className=" max-w-[1373px] min-h-96 md:min-h-[710px] flex flex-col justify-center gap-8 lg:gap-14 mx-auto px-6 py-6 lg:py-0">
+    <div className=" max-w-[1373px] min-h-96 lg:min-h-[710px] flex flex-col justify-center gap-8 lg:gap-14 mx-auto px-6 py-6 lg:py-0">
 
       <div className="Food_heading_content flex justify-between items-center ">
 
