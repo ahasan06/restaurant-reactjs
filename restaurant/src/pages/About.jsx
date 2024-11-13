@@ -33,7 +33,7 @@ function About() {
 
 
     return (
-        <section className=' max-w-[1373px] min-h-screen justify-center mx-auto flex lg:gap-10 flex-col px-6 lg:py-6 xl:pt-0'>
+        <section className=' max-w-[1373px] min-h-[864px] justify-center mx-auto flex lg:gap-10 flex-col px-6 lg:py-6 xl:pt-0'>
 
             
 

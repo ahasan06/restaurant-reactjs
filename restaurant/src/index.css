@@ -7,6 +7,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .bg-position-top {
+    background-position: top;
+  }
+}
+
+
 .hero-background {
   background-image: linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%), url('./images/heroBg.png');
   background-size: cover;
@@ -20,4 +27,22 @@
   background-blend-mode: overlay;
 }
 
+.book_table_bg {
+  background-image: url('./images/form_bg.jpeg');
+  background-size: cover;
+  @apply bg-center md:bg-position-top;
+}
 
+.input-field {
+  @apply w-full px-4 py-2 border border-gray-400 bg-transparent text-white  focus:outline-none focus:border-yellow-500 w-full;
+}
+.input-field::placeholder{
+  @apply text-[#F7F8F9];
+}
+
+.order-background {
+  background-image: linear-gradient(123.4deg, #ffffff 40.8%, #fffcec 76.4%, #f5f4f1 120.69%), url('./images/heroBg.png');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 
 function FoodCart({ name, description, imageUrl }) {
@@ -13,7 +14,7 @@ function FoodCart({ name, description, imageUrl }) {
       </aside>
         <div className="card_body flex flex-col items-center gap-1 text-center">
         <h2 className='font-heading text-2xl'>{name}</h2>
-        <p className='text-[14px] text-[#0A1425] px-4'>{description}</p>
+        <p className='text-[14px] text-[#0A1425] px-10'>{description}</p>
         </div>
     </div>
   )

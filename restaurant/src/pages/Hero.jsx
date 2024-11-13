@@ -7,7 +7,7 @@ import vector from '../images/Vector.png'
 
 function Hero() {
   return (
-    <section className=" max-w-[1373px] min-h-[648px] lg:min-h-screen flex flex-col justify-center lg:justify-normal px-6 md:pb-6 lg:pb-0 gap-6 mx-auto   md:relative  lg:flex-row  text-white ">
+    <section className=" max-w-[1373px] min-h-[648px] 2xl:min-h-screen flex flex-col justify-center lg:justify-normal px-6 pb-6 lg:pb-0 gap-6 mx-auto   md:relative  lg:flex-row  text-white ">
 
       <article className='flex flex-col gap-6 md:justify-center z-20  '>
         <h1 className="font-heading text-5xl md:text-6xl lg:text-8xl xl:text-9xl md:pr-10 lg:py-5 lg:bg-gradient-to-r from-transparent to-red-800 ">
