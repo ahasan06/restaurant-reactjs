@@ -8,7 +8,7 @@ import location from '../assets/icons/location.png';
 function Footer() {
   return (
     <div className='footer_bg min-h-[800px] text-white py-10 px-6 flex flex-col justify-center'>
-      <footer className='max-w-6xl xl:min-w-[60vw] mx-auto'>
+      <footer className='max-w-6xl  mx-auto'>
         {/* Heading Section */}
         <div className='text-center mb-12'>
           <h1 className='font-heading text-[40px] md:text-5xl 2xl:text-[56px]'>We’re ready to offer you the best dining experiences</h1>
