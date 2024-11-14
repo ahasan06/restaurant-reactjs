@@ -13,10 +13,9 @@ import rev_bg2 from './images/review_design2.png'
 function App() {
   return (
     <div >
-    <section className=' hero-background '> 
       <Navbar/>
+      <section className=' hero-background '> 
       <Hero/>
-
     </section>
       <section className='relative overflow-hidden'>
       <img src={hero_aurnaments}  className=' hidden md:block absolute right-0 md:top-2/3 md:translate-y-1/3 lg:bottom-1/2 lg:-translate-y-1/2  md:w-[150px] xl:w-[208px]'/>
