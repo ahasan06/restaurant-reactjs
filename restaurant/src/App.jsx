@@ -9,6 +9,7 @@ import BookTable from './pages/BookTable'
 import Review from './pages/Review'
 import rev_bg1 from './images/review_design1.png'
 import rev_bg2 from './images/review_design2.png'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
       <img src={rev_bg1}  className=' hidden 2xl:block absolute right-0 md:top-0 md:translate-y-1/3 lg:bottom-1/2 lg:translate-y-1/2   '/>
       <Review/>
     </section>
-
+      <Footer/>
     </div>
   )
 }

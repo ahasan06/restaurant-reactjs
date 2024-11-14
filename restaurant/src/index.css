@@ -46,3 +46,12 @@
   background-position: center;
   background-blend-mode: overlay;
 }
+
+.footer_bg {
+  background-image: url('./images/footer_image.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.753); /* Black overlay with transparency */
+  backdrop-filter: blur(5px); /* Applies a blur effect */
+}
